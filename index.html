@@ -1,10 +1,121 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <head>
+        <title>WDD Homework 8</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script> 
+        <script src = "assets/js/script.js"></script>
+    </head>
+    <body>
+        <!-- Sidebar Hamburger Icon -->
+        <div id = "sidebar-button">
+            <a id="nav-toggle">
+                <span></span>
+            </a>
+        </div>
 
-<h1>My First Heading</h1>
+        <!-- Sidebar -->
+        <nav class = "sidebar-container">
+            <!-- Question 1: Sidebar Code Here -->
+            <ul>
+                <li class = "sidebar-item">Home</li>
+                <li class = "sidebar-item">Name</li>
+                <li class = "sidebar-item">Major</li>
+                <li class = "sidebar-item">Fact</li>
+            </ul>
 
-<p>my first paragraph.</p>
 
-</body>
+            <!-- End Question 1 Here (Use as many lines as needed, but don't add code below this point)-->
+        </nav>
+
+        <!-- Page Wrapper, Consisting of All the Sections -->
+    <div class = "page-wrapper">
+            <!-- Carousel Section -->
+            <section class = "section" id = "carousel-section"> 
+                <div class = "carousel-container">
+                <!-- Question 2: Carousel Code Here -->
+                <div id="carousel">
+                    <div class = "carousel-item">
+                        <div class = "quote">
+                            "All these lights </br>They can't blind me</br> With your love</br> Nobody can drag me down"
+                            <div class = "author">
+                                <b>Liam </b><i>from One Direction</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <div class = "quote">
+                            "I got a river for a soul</br>And baby you're a boat</br>Baby you're my ony reason"
+                            <div class = "author">
+                                </b>Harry</b> <i>from One Direction</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <div class = "quote">
+                            "I got a fire for a heart</br>I'm not scared of the dark"
+                            <div class = "author">
+                                <b>Niall </b><i>from One Direction</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <div class = "quote">
+                                "If I didn't have you there would be nothing left </br>The shell of a man who could never be his best"
+                                <div class = "author">
+                                    <b>Louis </b><i>from One Direction</i>
+                                </div>
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <div class = "quote">
+                                "If I didn't have you </br>I'd never see the sun </br>You taught me how to be someone, yeah"
+                                <div class = "author">
+                                   <b> Harry </b><i>from One Direction</i>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            
+
+        
+
+                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
+                    <div id="carousel-prev">
+                        <img class="img-scaled" src="assets/img/arrowleft.png" />
+                    </div>
+                    <div id="carousel-next">
+                        <img class="img-scaled" src="assets/img/arrowright.png" />
+                    </div>
+                </section>
+            <!-- Name Section -->
+            <section class = "section" id = "name-section">
+                <div class = "text" id = "name-text">
+                    <!-- I am ENTER NAME HERE -->
+                    Nice to meet you - I'm Jennifer
+
+                </div>
+            </section>
+            <!-- Major Section -->
+            <section class = "section" id = "major-section">
+                <div class = "text" id = "major-text">
+                    <!-- I am majoring in ENTER MAJOR HERE -->
+                    I am studying Public Health
+                </div>
+            </section>
+            <!-- Random Fact Section -->
+            <section class = "section" id = "fact-section">
+                <div class = "text" id = "fact-text">
+                    <!-- ENTER RANDOM FACT HERE -->
+                    I like to eat Cheez-Its 
+                </div>
+            </section>
+        </div>
+    </body>
 </html>
